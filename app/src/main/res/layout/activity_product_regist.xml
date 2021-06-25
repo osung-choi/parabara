@@ -79,7 +79,7 @@
             android:textColor="@color/black"
             android:gravity="top"
             android:padding="10dp"
-            android:inputType="text"
+            android:inputType="none"
             app:layout_constraintTop_toBottomOf="@id/productPrice"
             app:layout_constraintBottom_toTopOf="@id/productRegist"
             app:layout_constraintStart_toStartOf="@id/selectImage"
@@ -97,10 +97,5 @@
             android:enabled="@{viewModel.enableProductSaveButton}"
             android:onClick="@{() -> viewModel.onSaveProductInfo()}"
             app:layout_constraintBottom_toBottomOf="parent"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/progress_background"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

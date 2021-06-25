@@ -11,6 +11,4 @@
     <color name="line">#FFB3B3B3</color>
     <color name="gray">#FFE3E3E3</color>
     <color name="orange">#FFFF8C00</color>
-
-    <color name="progress_background">#33B3B3B3</color>
 </resources>
